@@ -1,0 +1,14 @@
+#bio {
+  background-color: $alt;
+  background-image: url("images/rsz_1markus-spiske-mi9-py5cyns-unsplash.jpg");
+  text-align: center;
+  height: 700px;
+
+  .main-header {
+    display: block;
+    font-family: $montserrat;
+    color: #fff;
+    font-size: 6rem;
+    padding: 9% 0 0 0;
+  }
+}

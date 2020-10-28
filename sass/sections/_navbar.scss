@@ -1,0 +1,33 @@
+nav {
+  background-color: $main;
+  color: #fff;
+  padding: 1.5% 0 1.5% 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  .link {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 2%;
+    padding-bottom: 1%;
+
+    &:hover {
+      color: $alt;
+    }
+  }
+  .links {
+    display: inline;
+    margin-right: 540px;
+    padding-bottom: 1%;
+  }
+
+  .icon {
+    @extend .link;
+    display: inline;
+  }
+
+  .highlighted {
+    border-bottom: 3px solid $alt;
+  }
+}

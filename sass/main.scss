@@ -1,0 +1,18 @@
+@import "_vars.scss";
+
+// components
+
+@import "components/_buttons.scss";
+@import "components/_typography.scss";
+
+// sections
+
+@import "sections/_navbar.scss";
+@import "sections/_bio.scss";
+@import "sections/_Skills.scss";
+
+body {
+  font-family: $raleway;
+}
+
+@import "_animations.scss";
